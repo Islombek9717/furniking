@@ -24,6 +24,27 @@ const Footer = () => {
           <img src={Pintrest} alt="Facebook icon" width={13} height={16} />
         </Bottom.Media>
       </Bottom.Socials>
+      <Bottom.FooterItems>
+        <Bottom.ItemTitle>Help</Bottom.ItemTitle>
+        <Bottom.Links>Privacy Policy</Bottom.Links>
+        <Bottom.Links>Shipping & Delivery</Bottom.Links>
+        <Bottom.Links>Refound Policy</Bottom.Links>
+        <Bottom.Links>Truck Your Order</Bottom.Links>
+      </Bottom.FooterItems>
+      <Bottom.FooterItems>
+        <Bottom.ItemTitle>Store</Bottom.ItemTitle>
+        <Bottom.Links>Furniture</Bottom.Links>
+        <Bottom.Links>Tabble</Bottom.Links>
+        <Bottom.Links>Sofa</Bottom.Links>
+        <Bottom.Links>Other</Bottom.Links>
+      </Bottom.FooterItems>
+      <Bottom.FooterItems>
+        <Bottom.ItemTitle>Supports</Bottom.ItemTitle>
+        <Bottom.Links>Feedback</Bottom.Links>
+        <Bottom.Links>Contact us</Bottom.Links>
+        <Bottom.Links>Download app</Bottom.Links>
+        <Bottom.Links>Terms condition</Bottom.Links>
+      </Bottom.FooterItems>
     </Bottom>
   );
 };

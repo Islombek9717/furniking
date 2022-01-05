@@ -5,14 +5,14 @@ export const Wrap = styled.div`
   width: 100%;
   height: 67px;
   background-color: #f7f8fa;
-  z-index: 0:
+  z-index: 0;
 `;
 
 Wrap.Container = styled.div`
-width: 1186px;
-margin 0 auto;
-display: flex;
-align-items: center;
+  width: 1186px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 `;
 
 Wrap.Menu = styled.a`
@@ -35,7 +35,7 @@ Wrap.Menu = styled.a`
 Wrap.MenuIcon = styled(Menu)`
   width: 24px;
   height: 24px;
-  dsiplay: block;
+  display: block;
 `;
 Wrap.Link = styled.a`
   font-weight: normal;
